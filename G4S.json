@@ -1,0 +1,88 @@
+{
+  "name": "G4S",
+  "children": [
+    {
+      "name": "Human Threats",
+      "children": [
+        {
+          "name": "Damage To property",
+          "children": [
+            { "name": "Vandalism", "size": 20 },
+            { "name": "Arson", "size": 30 },
+            { "name": "Destruction", "size": 40 },
+            { "name": "Bombing (property threat only)", "size": 30 }
+          ]
+        },
+        {
+          "name": "Theft Of property ",
+          "children": [{ "name": "Theft Of property ", "size": 40 }]
+        },
+        {
+          "name": "Intrusion",
+          "children": [{ "name": "Intrusion", "size": 70 }]
+        },
+        {
+          "name": "Theft/denial of information",
+          "children": [
+            { "name": "Theft of information", "size": 30 },
+            { "name": "Denial of Access", "size": 70 }
+          ]
+        },
+        {
+          "name": "Unethical Conduct ",
+          "children": [
+            { "name": "Bribery", "size": 30 },
+            { "name": "Espionage", "size": 40 },
+            { "name": "Illegal use of company propert", "size": 40 },
+            { "name": "Ethical violation", "size": 30 },
+            { "name": "Policy violation", "size": 30 }
+          ]
+        },
+        {
+          "name": "Violence  against people",
+          "children": [
+            { "name": "Homicide", "size": 30 },
+            { "name": "Kidnap", "size": 30 },
+            { "name": "Rape", "size": 30 },
+            { "name": "Robbery", "size": 79 },
+            { "name": "Assault", "size": 70 },
+            { "name": "Bombing/threat", "size": 40 },
+            { "name": "Chemical/Biological Contamination", "szie": 30 },
+            { "name": "Workplace Assault ( weapon/Vehicle)", "szie": 20 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social & Political Hazards",
+      "children": [
+        {
+          "name": "Social/Economic Unrest",
+          "children": [
+            {"name": "Demonstration/Protest/Strike","size": 30},
+            {"name": "Civil Unrest","size": 30}
+          ]
+        },{
+            "name":"Regulatory Changes",
+            "children":[
+                {"name":"Legal and Regulatory Change","size":70},
+                {"name":"Contractual Change","szie":40}
+            ]
+        }
+      ]
+    },
+    {
+        "name":"Accidents and Natural Hazards",
+        "children":[
+            {
+                "name":"Natural Disasters",
+                "children":[
+                    {"name":"Earthquake","size":30},
+                    {"name":"Hurricane/Typhoon","size":40},
+                    {"name":"Severe Winter Weather","size":40}
+                ]
+            }
+        ]
+    }
+  ]
+}
